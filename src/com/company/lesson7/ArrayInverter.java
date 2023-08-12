@@ -10,6 +10,7 @@ public class ArrayInverter {
             int tmp = array[i];
             array[i]=array[array.length-i-1];
             array[array.length-i-1]=tmp;
+            System.out.println(Arrays.toString(array));
         }
         System.out.println(Arrays.toString(array));
     }
